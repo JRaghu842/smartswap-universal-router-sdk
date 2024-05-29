@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "version": "1.9.0",
+  "name": "smartswap-universal-router-sdk1",
+  "version": "1.0.0",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -49,21 +49,17 @@
     "typescript": "^4.3.3"
   },
   "dependencies": {
-    "@uniswap/permit2-sdk": "^1.2.0",
-    "@uniswap/router-sdk": "^1.9.0",
-    "@uniswap/sdk-core": "^4.2.0",
-    "@uniswap/universal-router": "1.6.0",
-    "@uniswap/v2-sdk": "^4.3.0",
-    "@uniswap/v3-sdk": "^3.11.0",
     "bignumber.js": "^9.0.2",
-    "ethers": "^5.3.1"
+    "ethers": "^5.3.1",
+    "smartswap-permit2-sdk": "^1.0.0",
+    "smartswap-router-sdk": "^1.0.1",
+    "smartswap-sdk-core": "^1.0.4",
+    "smartswap-universal-router1": "^1.0.0",
+    "smartswap-v2-sdk": "^1.0.2",
+    "smartswap-v3-sdk": "^1.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uniswap/universal-router-sdk.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Uniswap/universal-router-sdk/issues"
-  },
-  "homepage": "https://github.com/Uniswap/universal-router-sdk#readme"
+    "url": "git+https://github.com/JRaghu842/smartswap-universal-router-sdk.git"
+  }
 }
